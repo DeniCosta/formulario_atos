@@ -41,11 +41,11 @@
                         </div>
                         <div class="col-md-4">
                             <label for="senha" class="form-label">Senha <span class="text-danger">*</span></label>
-                            <input type="password" class="form-control" id="senha">
+                            <input type="password" class="form-control" id="senha" required>
                         </div>
                         <div class="col-md-2">
                             <label for="cep" class="form-label">CEP</label>
-                            <input type="number" class="form-control" id="cep">
+                            <input type="number" class="form-control" id="cep" placeholder="99999999">
                             <div id="cep-erro" class="form-text text-danger d-none">CEP não encontrado.</div>
                         </div>
                         <div class="col-md-6">
@@ -96,12 +96,12 @@
                                 class="text-danger">*</span></label>
                             <select class="form-select" id="professor" required>
                                 <option value="">Selecione...</option>
-                                <option value="1">Alexandre Zamberlan</option>
-                                <option value="2">André Flores</option>
-                                <option value="3">Deivison Pasa</option>
-                                <option value="4">Fabrício Tonetto</option>
-                                <option value="5">Lucas Schlestein</option>
-                                <option value="6">Ricardo Frohlich</option>
+                                <option value="Alexandre Zamberlan">Alexandre Zamberlan</option>
+                                <option value="André Flores">André Flores</option>
+                                <option value="Deivison Pasa">Deivison Pasa</option>
+                                <option value="Fabrício Tonetto">Fabrício Tonetto</option>
+                                <option value="Lucas Schlestein">Lucas Schlestein</option>
+                                <option value="Ricardo Frohlich">Ricardo Frohlich</option>
                             </select>
                         </div>
                     </section>
@@ -117,7 +117,7 @@
                             In elit tellus, commodo ac ullamcorper eu, eleifend a quam. Praesent convallis neque eu felis porttitor, ac molestie risus laoreet. Vestibulum congue fringilla tortor, a tincidunt eros venenatis et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed feugiat ligula, ut ultricies dui. Morbi a eros orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut faucibus urna mi, non malesuada nunc iaculis elementum. Pellentesque ullamcorper sem sit amet diam tempus aliquam eu at dui. Nunc molestie, arcu id mollis tempor, tellus magna bibendum elit, ac varius velit elit id eros.
                             Nulla gravida semper ante. Pellentesque nisi quam, suscipit sed viverra ut, commodo at tortor. Nulla volutpat molestie lacus, in pellentesque enim fringilla in. In sollicitudin sem venenatis iaculis sagittis. Maecenas et fermentum neque, vitae vestibulum enim. Ut id neque quis ante aliquam dapibus. Duis efficitur sollicitudin gravida. Maecenas metus tortor, maximus ut tempus at, ornare eu nulla. Donec lacus risus, sagittis ut venenatis ut, suscipit vitae erat. Mauris dui nisl, scelerisque et nisl id, volutpat tempus eros. Quisque dignissim justo pharetra venenatis ultrices. Nullam ullamcorper justo nec elit tristique, et dignissim erat ornare. Suspendisse erat massa, fermentum a convallis eu, dapibus eu nisl. Pellentesque aliquet semper augue at feugiat.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rerum corrupti iste a aliquid soluta. Labore a mollitia quo porro quasi omnis, officiis commodi debitis repellat nihil, iste vero fugiat.</textarea>
-                            <div class="form-check mt-2">
+                            <div class="form-check mt-2 d-none">
                                 <input type="checkbox" class="form-check-input" id="termos" required>
                                 <label class="form-check-label" for="termos">Eu li e concordo os termos descritos
                                     acima.</label>
