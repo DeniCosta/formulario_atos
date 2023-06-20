@@ -134,10 +134,11 @@ formulario.addEventListener('submit', (event) => {
 
   exibirDados(dados);
   formulario.reset();
+  alert("Dados enviados com sucesso!")
 });
 //atribui os valores dos campos do formulário aos respectivos ids da tabela
 function exibirDados(dados) {
-  formulario.classList.add('d-none');
+  
   tabelaDados.classList.remove('d-none');
   document.getElementById('t-nome').textContent = dados.nome;
   document.getElementById('t-sobrenome').textContent = dados.sobrenome;
